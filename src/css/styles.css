@@ -1,0 +1,48 @@
+:root {
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+h1 {
+  font-size: clamp(1.4rem, 2vw + 1rem, 2.5rem);
+}
+
+h2 {
+  font-size: clamp(1.2rem, 2vw + 1rem, 2.2rem);
+}
+
+h3 {
+  font-size: clamp(1rem, 2vw + 1rem, 2rem);
+}
+
+.Container {
+  width: 100%;
+  min-width: 320px;
+  padding: 2rem;
+}
+
+
+.Button {
+  border: none;
+  background: none;
+  font-size: 1.1rem;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  transition: 0.3s background ease-in;
+  
+}
+
+.Button--option {
+  text-align: left;
+}
+
+.Button:hover {
+  background: #acb4bd;
+}
